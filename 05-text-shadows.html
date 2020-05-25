@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Shadows</title>
+  <style>
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 3rem;
+    } 
+
+    h1.a {
+      /* h-shadow | v-shadow | color */
+      text-shadow: 0.2rem 0.2rem steelblue;
+    }
+
+    .b {
+      /* h-shadow | v-shadow | blur | color */
+      text-shadow: 0.2rem 0.2rem 0.7rem steelblue;
+    }
+
+    .c {
+      /* white text */
+      color: #fff;
+      text-shadow: 0.2rem 0.2rem 1rem steelblue;
+    }
+
+      /* negative values */
+    .d {
+      text-shadow: -0.2rem -0.2rem steelblue;
+    }
+
+  </style>
+</head>
+<body>
+  <h1 class="a">Yo Yo Hello Welcome Mamajamah!</h1>
+  <h1 class="b">Yo Yo Hello Welcome Mamajamah!</h1>
+  <h1 class="c">Yo Yo Hello Welcome Mamajamah!</h1>
+  <h1 class="d">Yo Yo Hello Welcome Mamajamah!</h1>
+  
+</body>
+</html>
